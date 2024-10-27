@@ -6,9 +6,7 @@ const { listingSchema } = require("../schema.js");
 const Listing = require("../models/listing.js");
 
 const validateListing = (req, res, next) => {
-
-    console.log(req.body);
-
+    
     let {error} = listingSchema.validate(req.body);
 
     if(error){
