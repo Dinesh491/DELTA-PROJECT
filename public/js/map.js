@@ -1,7 +1,6 @@
 
         mapboxgl.accessToken = mapToken;
 
-        // const parsedCordinates = JSON.parse(coordinates)
         
         const map = new mapboxgl.Map({
             container: 'map', // container ID
